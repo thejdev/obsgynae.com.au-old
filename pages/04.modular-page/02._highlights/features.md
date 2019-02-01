@@ -12,10 +12,10 @@ features:
     -
         icon: fa-user-md
         header: 'Clinical Resources'
+        text: 'Clinical resources relating to obstetrics and gynaecology.'
     -
-        icon: 'fa fa-cubes'
-        header: 'Awesome Technology'
-        text: 'Grav employs best-in-class technologies such as Twig, Markdown &amp; Yaml'
+        icon: fa-id-badge
+        header: 'About Us'
 ---
 
 # Why Grav?
