@@ -19,7 +19,6 @@ features:
         text: 'More about the inspiration for this site and #FOAMED'
 ---
 
-# Why Grav?
-## **build sites better**
+# What is obsgynae.com.au?
+## obstetrics and gynaecology resources to help ensuring patients get best care 
 
-We believe the best recipe to make something great, is to bake with [quality ingredients](#) and add dollops of [cool stuff](#). 
