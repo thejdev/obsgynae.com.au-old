@@ -1,5 +1,5 @@
 ---
-title: Standard Page
+title: 'Standard Page'
 ---
 
 This is an example **standard** page, where content from one single page is displayed. This page also shows how to add classes to Markdown images for floating images left or right, with and without captions.
