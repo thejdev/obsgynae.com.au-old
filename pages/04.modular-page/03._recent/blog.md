@@ -88,4 +88,3 @@ features:
         url: ''
 ---
 
-[plugin:page-inject](/blog)
