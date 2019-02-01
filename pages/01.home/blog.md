@@ -10,7 +10,6 @@ show_pagination: true
 content:
     items:
         '@page.children':
-            - /theobsgynaepod
             - /blog
     limit: 30
     order:
