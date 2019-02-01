@@ -1,7 +1,9 @@
 ---
 title: 'Homepage recent posts'
+image_align: left
+hide_git_sync_repo_link: '0'
+git_sync_repo_link: ''
 menu: Features
-hide_git_sync_repo_link: false
 class: small
 features:
     -
