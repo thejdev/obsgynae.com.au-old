@@ -1,7 +1,13 @@
 ---
+swipe_deck_title: ''
+display_swipe_deck_title: '0'
+swipe_deck_id: ''
+swipe_deck_pdf_url: ''
 title: Home
+published: true
 hide_git_sync_repo_link: false
 body_classes: 'title-center title-h1h2'
+visible: true
 hero_classes: ''
 hero_image: ''
 header_image_alt_text: ''
