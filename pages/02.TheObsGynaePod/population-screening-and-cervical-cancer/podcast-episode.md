@@ -1,6 +1,6 @@
 ---
 subtitle: 'Population screening and the new cervical screening test'
-title: ' Population Screening and Cervical Cancer'
+title: 'Population Screening and Cervical Cancer'
 podcast:
     itunes:
         explicit: 'no'
