@@ -8,3 +8,20 @@ hide_git_sync_repo_link: false
 body_classes: sticky-footer
 ---
 
+In this episode we will cover some of the alterations in physiology that occur in pregnancy.
+
+We talk to Dr Gloria Sham who is a consultant Obstetrician & Gynaecologist.
+
+We review:
+– The effect of progesterone
+– Cardiovascular changes
+– Respiratory changes
+– Haematological changes – specifically iron requirement, anaemia and coagulation changes
+
+If you have any feedback on this episode or ideas for future podcasts please email: isaac@obsgynae.com.au
+
+References:
+Handbook of Obstetric Medicine – Catherine Nelson Piercy – 5th edition
+This should be available through your university or hospital library.
+
+Soma-Pillay etal. 2016. Physiological changes in pregnancy. Cardiovascular Journal of Africa. 27(2)
