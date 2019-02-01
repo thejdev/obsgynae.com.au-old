@@ -11,6 +11,7 @@ content:
     items:
         '@page.children':
             - /blog
+            - /theobsgynaepod
     limit: 30
     order:
         by: date
