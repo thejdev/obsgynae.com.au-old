@@ -9,9 +9,7 @@ show_breadcrumbs: false
 show_pagination: true
 content:
     items:
-        '@page.children':
-            - /blog
-            - /theobsgynaepod
+        '@page.children': '/blog ''@page.descendants''- /theobsgynaepod'
     limit: 30
     order:
         by: date
