@@ -17,7 +17,7 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: true
-bricklayer_layout: true
+bricklayer_layout: false
 display_post_summary:
     enabled: false
 sitemap:
