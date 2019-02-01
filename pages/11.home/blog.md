@@ -28,5 +28,5 @@ feed:
 pagination: true
 ---
 
-# My **Open Publishing** Space
-## Create, Share and Collaborate
+#  **obsgynae**.com.au
+##  bringing #FOAMed to women’s health.
