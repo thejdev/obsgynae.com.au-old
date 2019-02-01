@@ -10,7 +10,6 @@ show_pagination: true
 content:
     items:
         '@page.children': /blog
-        '@page.modular': /modular-pages
     limit: 30
     order:
         by: date
