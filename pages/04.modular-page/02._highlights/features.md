@@ -20,5 +20,5 @@ features:
 ---
 
 # obstetrics and gynaecology
-## resources to help ensuring patients get best care 
+## resources to help ensure patients get best care 
 
