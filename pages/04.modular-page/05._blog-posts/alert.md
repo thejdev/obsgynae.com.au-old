@@ -1,8 +1,8 @@
 ---
 title: 'Blog posts'
+menu: Features
 hide_git_sync_repo_link: '0'
 git_sync_repo_link: ''
-menu: Features
 hero_classes: ''
 hero_image: ''
 header_image_alt_text: ''
@@ -98,3 +98,6 @@ features:
         url: ''
 ---
 
+# Some Content Here
+
+## some more content
