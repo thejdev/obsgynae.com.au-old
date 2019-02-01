@@ -10,7 +10,7 @@ features:
         text: 'The podcast for medical students, residents, GP''s and anyone with an interest in obstetrics and gynaecology.'
         url: /theobsgynaepod
     -
-        icon: user-md
+        icon: fa-user-md
         header: 'Clinical Resources'
     -
         icon: 'fa fa-cubes'
