@@ -4,6 +4,18 @@ title: ' Physiological Changes in Pregnancy – Part One'
 podcast:
     itunes:
         explicit: 'no'
+    audio:
+        local:
+            user/pages/02.TheObsGynaePod/02.physiological-changes-in-pregnancy-part-one/ogp-ep002.mp3:
+                name: ogp-ep002.mp3
+                type: audio/mpeg
+                size: 9767969
+                path: user/pages/02.TheObsGynaePod/02.physiological-changes-in-pregnancy-part-one/ogp-ep002.mp3
+        meta:
+            guid: user/pages/02.TheObsGynaePod/02.physiological-changes-in-pregnancy-part-one/ogp-ep002.mp3
+            type: audio/mpeg
+            duration: '13:34'
+            enclosure_length: 9767969
 date: '2018-05-15 00:00'
 hide_git_sync_repo_link: false
 body_classes: sticky-footer
