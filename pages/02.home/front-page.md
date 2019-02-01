@@ -31,9 +31,10 @@ features:
         icon: fa-id-badge
         header: 'About Us'
         text: 'More about the inspiration for this site and #FOAMED'     
-features-text: 
-    - h1-text: 'obstetrics and gynaecology'
-    - h2-text: 'resources to help provide the best in patient care'
+features-h1: 
+    - text: 'obstetrics and gynaecology'
+features-h2:
+    - text: 'resources to help provide the best in patient care'
 bricklayer_layout: false
 display_post_summary:
     enabled: false
