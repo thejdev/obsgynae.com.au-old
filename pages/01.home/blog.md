@@ -30,5 +30,3 @@ pagination: true
 
 #  **obsgynae**.com.au
 ##  bringing #FOAMed to women’s health
-
-[plugin:page-inject](/home/_highlights)
