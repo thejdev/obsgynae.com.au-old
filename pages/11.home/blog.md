@@ -29,4 +29,4 @@ pagination: true
 ---
 
 #  **obsgynae**.com.au
-##  bringing #FOAMed to women’s health.
+##  bringing #FOAMed to women’s health
