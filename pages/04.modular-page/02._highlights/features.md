@@ -8,7 +8,7 @@ features:
         icon: 'fa-podcast '
         header: 'The ObsgynaePod'
         text: 'The podcast for medical students, residents, GP''s and anyone with an interest in obstetrics and gynaecology.'
-        url: /theobsgynaepod
+        url: /cms/theobsgynaepod
     -
         icon: fa-user-md
         header: 'Clinical Resources'
