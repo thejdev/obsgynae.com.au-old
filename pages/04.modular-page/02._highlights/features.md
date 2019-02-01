@@ -16,6 +16,7 @@ features:
     -
         icon: fa-id-badge
         header: 'About Us'
+        text: 'More about the inspiration for this site and #FOAMED'
 ---
 
 # Why Grav?
