@@ -24,6 +24,7 @@ podcast:
     channelLanguage: en
     copyright: '2017 Example.com'
 hide_git_sync_repo_link: false
+body_classes: sticky-footer
 ---
 
 Your page content goes here.
