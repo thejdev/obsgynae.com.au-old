@@ -19,6 +19,6 @@ features:
         text: 'More about the inspiration for this site and #FOAMED'
 ---
 
-# What is obsgynae.com.au?
-## obstetrics and gynaecology resources to help ensuring patients get best care 
+# obstetrics and gynaecology
+## resources to help ensuring patients get best care 
 
