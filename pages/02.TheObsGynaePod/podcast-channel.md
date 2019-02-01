@@ -1,4 +1,5 @@
 ---
+title: 'The ObsGynaePod'
 feed:
     rss: 'true'
     items: '@self.descendants'
