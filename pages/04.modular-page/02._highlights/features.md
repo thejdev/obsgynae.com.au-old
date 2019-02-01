@@ -2,7 +2,7 @@
 title: 'Homepage Highlights'
 hide_git_sync_repo_link: false
 menu: Highlights
-class: small
+class: standard
 features:
     -
         icon: 'fa-podcast '
