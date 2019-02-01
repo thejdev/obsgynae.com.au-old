@@ -1,56 +1,57 @@
 ---
-title: 'Homepage Features 2'
+title: 'Blog posts'
+hide_git_sync_repo_link: false
 menu: Features
 class: small
 features:
     -
-        header: 'Markdown Syntax'
         icon: 'fa fa-text-height'
+        header: 'Markdown Syntax'
     -
-        header: 'Twig Templating'
         icon: 'fa fa-code'
+        header: 'Twig Templating'
     -
-        header: 'Smart Caching'
         icon: 'fa fa-rocket'
+        header: 'Smart Caching'
     -
-        header: 'Flexible Taxonomies'
         icon: 'fa fa-tags'
+        header: 'Flexible Taxonomies'
     -
-        header: 'Simple Install'
         icon: 'fa fa-cloud-download'
+        header: 'Simple Install'
     -
-        header: 'Powerful Plugins'
         icon: 'fa fa-cogs'
+        header: 'Powerful Plugins'
     -
-        header: 'Intuitive UI'
         icon: 'fa fa-dashboard'
+        header: 'Intuitive UI'
     -
-        header: File-Based
         icon: 'fa fa-file-text'
+        header: File-Based
     -
-        header: Multi-Language
         icon: 'fa fa-language'
+        header: Multi-Language
     -
-        header: 'Users & Roles'
         icon: 'fa fa-users'
+        header: 'Users & Roles'
     -
-        header: 'Image Processing'
         icon: 'fa fa-image'
+        header: 'Image Processing'
     -
-        header: Documentation
         icon: 'fa fa-bookmark'
+        header: Documentation
     -
-        header: 'On Github'
         icon: 'fa fa-github'
+        header: 'On Github'
     -
-        header: 'Responsive Design'
         icon: 'fa fa-html5'
+        header: 'Responsive Design'
     -
-        header: 'CLI Power'
         icon: 'fa fa-terminal'
+        header: 'CLI Power'
     -
-        header: Awesomazing
         icon: 'fa fa-heart-o'
+        header: Awesomazing
 ---
 
 # Stuffed Full of Features
