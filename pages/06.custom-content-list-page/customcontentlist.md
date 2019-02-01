@@ -1,6 +1,7 @@
 ---
 title: 'Custom Content List Page'
-published: false
+published: true
+hide_git_sync_repo_link: true
 child_type: embedlycard
 visible: true
 content:
@@ -9,6 +10,7 @@ content:
         dir: asc
     items: '@self.children'
     limit: 0
-hide_git_sync_repo_link: true
 display_child_page_titles: true
+display_content_titles: true
 ---
+
