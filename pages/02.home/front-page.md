@@ -17,6 +17,20 @@ content:
         dir: desc
     pagination: true
     url_taxonomy_filters: false
+features:
+    -
+        icon: 'fa-podcast '
+        header: 'The ObsgynaePod'
+        text: 'The podcast for medical students, residents, GP''s and anyone with an interest in obstetrics and gynaecology.'
+        url: /cms/theobsgynaepod
+    -
+        icon: fa-user-md
+        header: 'Clinical Resources'
+        text: 'Clinical resources relating to obstetrics and gynaecology.'
+    -
+        icon: fa-id-badge
+        header: 'About Us'
+        text: 'More about the inspiration for this site and #FOAMED'     
 bricklayer_layout: false
 display_post_summary:
     enabled: false
