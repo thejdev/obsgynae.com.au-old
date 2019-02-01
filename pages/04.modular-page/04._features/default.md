@@ -1,8 +1,8 @@
 ---
-title: 'Homepage recent'
+title: 'Homepage recent posts'
+menu: Features
 hide_git_sync_repo_link: '0'
 git_sync_repo_link: ''
-menu: Features
 class: small
 features:
     -
