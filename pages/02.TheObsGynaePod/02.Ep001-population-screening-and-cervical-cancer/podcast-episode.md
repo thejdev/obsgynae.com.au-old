@@ -1,7 +1,7 @@
 ---
 subtitle: 'Population screening and the new cervical screening test'
 title: 'Ep 001: Population Screening and Cervical Cancer'
-media_order: 'ogp-ep001.mp3'
+media_order: ogp-ep001.mp3
 podcast:
     audio:
         local:
