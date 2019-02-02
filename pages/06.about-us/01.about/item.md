@@ -10,6 +10,7 @@ taxonomy:
         - FOAMed
         - isaac
 hide_git_sync_repo_link: true
+visible: false
 blog_url: /about-us
 show_sidebar: true
 show_breadcrumbs: true
