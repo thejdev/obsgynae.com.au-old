@@ -1,5 +1,6 @@
 ---
 title: 'About Us'
+media_order: adam-solomon-472458-unsplash.jpg
 date: '2019-02-02 20:30'
 hide_git_sync_repo_link: false
 blog_url: /blog
@@ -20,4 +21,5 @@ display_post_summary:
     enabled: false
 ---
 
-Your page content goes here.
+# About us
+## Isaac, Jaidev & the #FOAMed movement
