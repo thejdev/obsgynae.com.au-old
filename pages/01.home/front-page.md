@@ -28,10 +28,12 @@ features:
         icon: fa-user-md
         header: 'Clinical Resources'
         text: 'Clinical resources relating to obstetrics and gynaecology.'
+        url: /cms/clinical-resources
     -
         icon: fa-id-badge
         header: 'About Us'
         text: 'More about the inspiration for this site and #FOAMED'
+        url: /cms/about-us
 bricklayer_layout: false
 display_post_summary:
     enabled: false
