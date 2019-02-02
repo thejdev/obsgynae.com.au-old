@@ -1,6 +1,6 @@
 ---
 title: Home
-body_classes: 'header-dark '
+body_classes: 'header-dark header-transparent'
 hide_git_sync_repo_link: false
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 blog_url: /blog
