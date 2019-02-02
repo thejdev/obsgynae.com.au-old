@@ -1,5 +1,6 @@
 ---
 title: 'About Us'
+media_order: adam-solomon-472458-unsplash-small.jpg
 hide_git_sync_repo_link: false
 hero_classes: 'text-light title-h1h2 overlay-dark'
 blog_url: /about-us
