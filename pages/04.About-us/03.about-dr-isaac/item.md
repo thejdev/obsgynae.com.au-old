@@ -2,6 +2,7 @@
 title: 'About Dr. Isaac'
 date: '2019-02-02 22:48'
 hide_git_sync_repo_link: false
+visible: false
 blog_url: /blog
 show_sidebar: true
 show_breadcrumbs: true
