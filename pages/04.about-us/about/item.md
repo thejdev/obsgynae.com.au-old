@@ -1,5 +1,5 @@
 ---
-title: bout
+title: About
 date: '2018-05-01 21:15'
 taxonomy:
     category:
