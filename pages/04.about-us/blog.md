@@ -21,5 +21,5 @@ display_post_summary:
     enabled: false
 ---
 
-# About us
+# About Us
 ## About the authors & the #FOAMed movement
