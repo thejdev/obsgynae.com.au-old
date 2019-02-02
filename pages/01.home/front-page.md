@@ -48,5 +48,5 @@ pagination: true
 ---
 
 #  **obsgynae**.com.au
-## obstetrics and gynacology resources to help provide the best in patient care
-###  bringing #FOAMed to women’s health
+### obstetrics and gynacology resources to help provide the best in patient care
+####  bringing #FOAMed to women’s health
