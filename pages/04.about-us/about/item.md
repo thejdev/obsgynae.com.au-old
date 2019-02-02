@@ -19,6 +19,8 @@ hide_from_post_list: false
 
 About the site, the us, and the vision for the site.
 
+As a medical student I loved versatility and variation in my resources...
+
 ===
 
 As a medical student I loved versatility and variation in my resources. I especially loved listening to the handful of good quality, educational podcasts that are available in some fields. These could be played through headphones on the bus on the way to university or student placement and made a great addition to self-directed study.
