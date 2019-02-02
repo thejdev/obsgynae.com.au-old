@@ -12,8 +12,8 @@ content:
         - '@self.children'
     limit: 20
     order:
-        by: date
-        dir: desc
+        by: folder
+        dir: asc
     pagination: true
     url_taxonomy_filters: true
 bricklayer_layout: true
