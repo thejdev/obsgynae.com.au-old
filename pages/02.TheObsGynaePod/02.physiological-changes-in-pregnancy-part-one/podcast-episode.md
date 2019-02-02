@@ -1,6 +1,6 @@
 ---
 subtitle: 'Alterations in physiology that occur in pregnancy'
-title: ' The ObsGynaePod Ep 002: Physiological Changes in Pregnancy – Part One'
+title: 'Ep 002: Physiological Changes in Pregnancy – Part One'
 podcast:
     audio:
         local:
