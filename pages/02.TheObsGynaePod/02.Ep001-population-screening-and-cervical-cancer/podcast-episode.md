@@ -21,16 +21,16 @@ In this episode we will discuss population screening and the new cervical screen
 
 ===
 
-We talk to Dr Sivanesan who is a consultant gynaecologist and review:
+We talk to [Dr Sivanesan](../../about-us/contributor-profile-dr-sivanesan), a consultant gynaecologist to review the following topics:
 * Principles of health screening
 * The New Cervical Screening Test
 
-If you have any feedback on this episode or ideas for future podcasts please email: isaac@obsgynae.com.au
+If you have any feedback on this episode or ideas for future podcasts please email: [isaac@obsgynae.com.au](mailto:isaac@obsgynae.com.au)
 
 Good Resources:
 * PAPsmear video
 
-References:
+!!! References:
 * Cancer Council – “Wiki” on cervical cancer screening in Australia
   * Available here: [Cancer Council](https://wiki.cancer.org.au/australia/Guidelines:Cervical_cancer/Screening)
 * WHO guidelines on population screening:
