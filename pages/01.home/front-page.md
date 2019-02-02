@@ -43,6 +43,6 @@ feed:
 pagination: true
 ---
 
-![the obsgynae logo](https://obsgynae.com.au/cms/user/pages/01.home/obsygynae-03-sm.png)
+#  **obsgynae**.com.au
 ### obstetrics and gynacology resources to help provide the best in patient care
 ####  bringing #FOAMed to women’s health
