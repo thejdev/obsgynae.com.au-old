@@ -17,6 +17,12 @@ podcast:
             enclosure_length: 11811914
     itunes:
         explicit: 'no'
+        image:
+            user/pages/02.TheObsGynaePod/01.population-screening-and-cervical-cancer/Cervical-Cancer-screening-700x300.jpg:
+                name: Cervical-Cancer-screening-700x300.jpg
+                type: image/jpeg
+                size: 22941
+                path: user/pages/02.TheObsGynaePod/01.population-screening-and-cervical-cancer/Cervical-Cancer-screening-700x300.jpg
 date: '2018-05-15 00:00'
 taxonomy:
     tag:
