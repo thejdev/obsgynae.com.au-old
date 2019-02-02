@@ -16,6 +16,7 @@ podcast:
             duration: '16:24'
             enclosure_length: 11811914
     itunes:
+        author: 'Isaac Hanley'
         explicit: 'no'
         image:
             user/pages/02.TheObsGynaePod/01.population-screening-and-cervical-cancer/Cervical-Cancer-screening-700x300.jpg:
