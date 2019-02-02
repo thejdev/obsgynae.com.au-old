@@ -31,6 +31,7 @@ features:
         icon: fa-id-badge
         header: 'About Us'
         text: 'More about the inspiration for this site and #FOAMED'     
+ft-text: abcd
 
 bricklayer_layout: false
 display_post_summary:
