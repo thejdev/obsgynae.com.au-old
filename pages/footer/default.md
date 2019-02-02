@@ -5,4 +5,4 @@ routable: false
 visible: false
 ---
 
-Built with love by Isaac & Jaidev in Brisbane, Australia. This site runs on [Grav CMS](http://getgrav.org)
+Built with love by Isaac & Jaidev in Brisbane, Australia. This site runs on [Grav CMS](http://getgrav.org).
