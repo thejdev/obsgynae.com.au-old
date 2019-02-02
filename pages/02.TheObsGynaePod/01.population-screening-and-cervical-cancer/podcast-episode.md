@@ -33,12 +33,11 @@ Good Resources:
 * PAPsmear video
 
 References:
-Cancer Council – “Wiki” on cervical cancer screening in Australia
-Available here: [Cancer Council](https://wiki.cancer.org.au/australia/Guidelines:Cervical_cancer/Screening)
-
-WHO guidelines on population screening:
-Available here: [Cancer Council](https://wiki.cancer.org.au/policy/Principles_of_screening#Principles_for_the_introduction_of_population_screening)
+* Cancer Council – “Wiki” on cervical cancer screening in Australia
+  * Available here: [Cancer Council](https://wiki.cancer.org.au/australia/Guidelines:Cervical_cancer/Screening)
+* WHO guidelines on population screening:
+  * Available here: [Cancer Council](https://wiki.cancer.org.au/policy/Principles_of_screening#Principles_for_the_introduction_of_population_screening)
 
 Original paper in population screening:
-Wilson JM, Jungner G. The principles and practice of screening for disease. Geneva, Switzerland: World Health Organization; 1968. (Public Health Papers no. 34).
-Available here: [WHO](http://apps.who.int/iris/handle/10665/37650)
+* Wilson JM, Jungner G. The principles and practice of screening for disease. Geneva, Switzerland: World Health Organization; 1968. (Public Health Papers no. 34).
+  * Available here: [WHO](http://apps.who.int/iris/handle/10665/37650)
