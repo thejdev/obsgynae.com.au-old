@@ -1,8 +1,8 @@
 ---
 title: 'About Us'
 media_order: adam-solomon-472458-unsplash.jpg
-date: '2019-02-02 20:30'
 hide_git_sync_repo_link: false
+hero_classes: 'text-light title-h1h2 overlay-light-gradient'
 blog_url: /blog
 show_sidebar: true
 show_breadcrumbs: true
