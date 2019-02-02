@@ -22,4 +22,4 @@ display_post_summary:
 ---
 
 # About us
-## Isaac, Jaidev & the #FOAMed movement
+## About the authors & the #FOAMed movement
