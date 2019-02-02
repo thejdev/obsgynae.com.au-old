@@ -5,10 +5,10 @@ taxonomy:
     category:
         - about
     tag:
+        - jaidev
         - about-us
         - FOAMed
         - isaac
-        - jaidev
 hide_git_sync_repo_link: true
 blog_url: /about-us
 show_sidebar: true
