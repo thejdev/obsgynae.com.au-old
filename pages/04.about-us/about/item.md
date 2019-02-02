@@ -4,6 +4,11 @@ date: '2019-02-02 21:15'
 taxonomy:
     category:
         - about
+    tag:
+        - about-us
+        - FOAMed
+        - isaac
+        - jaidev
 hide_git_sync_repo_link: true
 blog_url: /about-us
 show_sidebar: true
