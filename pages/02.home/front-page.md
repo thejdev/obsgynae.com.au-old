@@ -1,7 +1,7 @@
 ---
 title: Home
+body_classes: 'header-dark '
 hide_git_sync_repo_link: false
-body_classes: 'header-dark header-transparent'
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
 blog_url: /blog
 show_sidebar: true
@@ -30,10 +30,12 @@ features:
     -
         icon: fa-id-badge
         header: 'About Us'
-        text: 'More about the inspiration for this site and #FOAMED'     
+        text: 'More about the inspiration for this site and #FOAMED'
 features_text:
-    - h1_text: obstetrics and gynaecology
-    - h2_text: resources to help ensure patients get best care
+    -
+        h1_text: 'obstetrics and gynaecology'
+    -
+        h2_text: 'resources to help ensure patients get best care'
 bricklayer_layout: false
 display_post_summary:
     enabled: false
