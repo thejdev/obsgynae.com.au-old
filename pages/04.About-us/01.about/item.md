@@ -72,4 +72,4 @@ Special Thanks
 Enjoy our site.
 
 Best regards,
-Dr Isaac Hanley & Jaidev Vasudevan
+Dr Isaac Hanley [safe-email autolink="true" icon="envelope-o"]isaac@obsgynae.com.au[/safe-email] & Jaidev Vasudevan [safe-email autolink="true" icon="envelope-o"]jaidev@obsgynae.com.au[/safe-email].
