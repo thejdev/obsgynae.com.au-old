@@ -5,10 +5,10 @@ taxonomy:
     category:
         - about
     tag:
-        - jaidev
         - about-us
         - FOAMed
         - isaac
+        - jaidev
 hide_git_sync_repo_link: true
 visible: false
 blog_url: /about-us
@@ -24,7 +24,7 @@ As a medical student I loved versatility and variation in my resources. I especi
 
 I especially loved podcasts put out by the Stollery Children’s Hospital in Canada – who release the excellent “PedsCases” podcast – if you haven’t got into that yet… I recommend it and they are up to 100 podcasts which is quite the achievement. I like that to maintain the integrity of the podcasts it’s important to have “expert witnesses” in the form of consultants in their field.
 
-I also think that the folks behind the FOAMed movement deserve a pat on the back. The hippocratic oath states……
+![ Hippocrates, Wikipedia Commons](/media/Hippocrates.jpg?resize=200&classes=caption,figure-right "Hippocrates, Wikipedia Commons") I also think that the folks behind the FOAMed movement deserve a pat on the back. The hippocratic oath states……
 > ἡγήσεσθαι μὲν τὸν διδάξαντά με τὴν τέχνην ταύτην ἴσα γενέτῃσιν ἐμοῖς, καὶ βίου κοινώσεσθαι, καὶ χρεῶν χρηΐζοντι μετάδοσιν ποιήσεσθαι, καὶ γένος τὸ ἐξ αὐτοῦ ἀδελφοῖς ἴσον ἐπικρινεῖν ἄρρεσι, καὶ διδάξειν τὴν τέχνην ταύτην, ἢν χρηΐζωσι μανθάνειν, ἄνευ μισθοῦ καὶ συγγραφῆς, παραγγελίης τε καὶ ἀκροήσιος καὶ τῆς λοίπης ἁπάσης μαθήσιος μετάδοσιν ποιήσεσθαι υἱοῖς τε ἐμοῖς καὶ τοῖς τοῦ ἐμὲ διδάξαντος, καὶ μαθητῇσι συγγεγραμμένοις τε καὶ ὡρκισμένοις νόμῳ ἰητρικῷ, ἄλλῳ δὲ οὐδενί.
 
 For those of you who have let your ancient Greek slip a little like I have…..

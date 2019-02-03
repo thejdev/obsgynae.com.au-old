@@ -4,7 +4,7 @@ media_order: adam-solomon-472458-unsplash-small.jpg
 hide_git_sync_repo_link: false
 hero_classes: 'text-light title-h1h2 overlay-dark'
 blog_url: /about-us
-show_sidebar: true
+show_sidebar: false
 show_breadcrumbs: true
 show_pagination: true
 content:
