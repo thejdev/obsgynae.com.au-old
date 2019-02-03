@@ -19,35 +19,35 @@ hide_from_post_list: false
 General resources on miscarriage.
 
 ===
-
-# Key Points
-
-## Symptoms:
+## General
+### Symptoms
 
 * crampy, lower abdominal pain
 * PV bleeding
 
-## Examination Findings:
+### Examination Findings
 * Tender but not peritonitic lower abdomen
 * Cervix examination (is it open? are there products-of-conception in the cervical os?)
 
-## Investigations:
+### Investigations
 
 * BetaHCG
   * if above 1500 IU/L then a TV-USS should see an intrauterine gestational sac
 * FBC, Group + Hold (rhesus negative women may need anti-D), Crossmatch (if bleeding heavily)
 * USS – transvaginal
 
-## Initial Management:
+### Initial Management
 
 * stabilise the pt – DRSABCD
 * ask: is this patient suitable for outpatient management?
 
-## Definitive management:
+### Definitive management
 
 1. Expectant management
 2. Medical management with misoprostol
 3. Surgical management by currettage of the uterus
+
+===
 
 ## Miscarriage – P.R.I.C.M.P
 
@@ -56,14 +56,14 @@ General resources on miscarriage.
 * cramp-like, lower abdominal pain (rarely severe)
 * PV bleeding (any bleeding in the first trimester of pregnancy requires consideration of miscarriage)
 
-##### Other Important History:
+##### Other Important History
 
 * date of LMP for pregnancy dating (always ask how regular the woman’s cycle was – if her menstrual cycle was erratic prior to getting pregnant than the LMP pregnancy dating is less accurate)
 * any previous ultrasound scans in this pregnancy
 * Gs & Ps
 * Ms & Es – previous miscarriages and what was done about them (what management)
 
-#### O+G history worth considering:
+#### O+G history worth considering
 
 * previous deliveries…has patient had any caesars?
 * previous terminations of pregnancy (pt will often not think of this as a miscarriage – but if they had a suction currette – which a significant number of terminations will have had – we want to know about it)
@@ -97,14 +97,14 @@ Pregnancy USS will often detail the following:
 
 Patients having a miscarriage can lose large volumes of blood quickly – like anyone else in the ED they require a thorough primary survey.
 
-#### Immediate resuscitation:
+#### Immediate resuscitation
 
 * a large bore cannula is essential (especially important in second trimester miscarriages and if molar pregnancy is suspected – see section on GTD
 * IV fluids running unimpeded (1-2L of crystalloid)
 * If the patient is haemodynamically unstable – consider…could this be an ectopic? (they can still have PV bleeding!)
 * Analgesia
 
-#### Speculum examination:
+#### Speculum examination
 It’s important to see the cervix, if there are products distending the cervix it will…
 * increase blood loss
 * decrease blood pressure (autonomic stimulation dropping BP)
@@ -130,7 +130,7 @@ In Australia – if treatment is required most women are offered the choice from
 * suspicion of gestational trophoblastic disease (see below)
 
 ### Complications
-#### Short term:
+#### Short term
 
 * haemorrhage
 * incomplete resolution of miscarriage
@@ -139,7 +139,7 @@ In Australia – if treatment is required most women are offered the choice from
 * operative complications
   * e.g. uterine perforation at suction currettage, incomplete evacuation
 
-#### Long term:
+#### Long term
 
 * Asherman’s syndrome
 * Mental health implications
@@ -150,7 +150,7 @@ In Australia – if treatment is required most women are offered the choice from
 A final point:
 > This is a very difficult time for women and often it is left to the most junior doctor in the department to manage these situations(especially if the woman is stable). Be sure to offer support services to the women and make sure you take the time to tell them that you’re sorry for their loss. Even women who have had many babies find this a traumatic time and your actions and behaviour will be remembered by the family for a long time. Numbers of miscarriage are hard to quantify but it likely affects 25% of pregnancies – i.e. it is normal!
 
-## Some definitions:
+## Some definitions
 * Miscarriage: the loss of a pregnancy before 20 weeks of completed gestation.
 * Complete miscarriage: A miscarriage is complete when there is an empty uterus on USS and the beta HCG has returned to zero.
 * Incomplete miscarriage: Symptoms of a miscarriage but with USS evidence of retained products in the uterus.
