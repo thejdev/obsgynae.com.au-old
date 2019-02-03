@@ -1,6 +1,5 @@
 ---
 title: Miscarriage
-media_order: delfi-de-la-rua-119669-unsplash.jpg
 date: '2017-12-16 17:34'
 taxonomy:
     category:
