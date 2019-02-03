@@ -1,6 +1,5 @@
 ---
 title: 'Clinical Resources'
-media_order: 'mountain.jpg,valentin-salja-762020-unsplash.jpg'
 hide_git_sync_repo_link: false
 body_classes: 'header-dark header-transparent'
 hero_classes: 'text-light title-h1h2 overlay-dark-gradient hero-large parallax'
@@ -29,4 +28,3 @@ pagination: true
 ---
 
 # Clinical Resources
-## heading 2
