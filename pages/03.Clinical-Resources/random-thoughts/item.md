@@ -1,9 +1,15 @@
 ---
-title: Random Thoughts
-date: 13:34 05/26/2017 
+title: 'Random Thoughts'
+date: '2017-05-26 13:34'
 taxonomy:
-    category: blog
-    tag: [journal]
+    category:
+        - blog
+hide_git_sync_repo_link: false
+blog_url: /blog
+show_sidebar: true
+show_breadcrumbs: true
+show_pagination: true
+hide_from_post_list: false
 ---
 
 Lorem markdownum mirum. Solus restare dabat, gladio vipereis caerula?

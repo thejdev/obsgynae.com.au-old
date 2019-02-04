@@ -4,6 +4,10 @@ podcast:
     itunes:
         explicit: 'no'
 date: '2018-10-01 17:49'
+taxonomy:
+    tag:
+        - podcast
+        - diabetes
 hide_git_sync_repo_link: false
 ---
 

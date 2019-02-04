@@ -21,6 +21,7 @@ published: true
 date: '2018-06-11 00:00'
 taxonomy:
     tag:
+        - pregnancy
         - podcast
 hide_git_sync_repo_link: false
 body_classes: 'sticky-footer header-animated'
@@ -33,7 +34,7 @@ In this episode we will cover some of the alterations in physiology that occur i
 We talk to Dr Gloria Sham who is a consultant Obstetrician & Gynaecologist.
 
 We review:
-The effect of progesterone
+* The effect of progesterone
 * Cardiovascular changes
 * Respiratory changes
 * Haematological changes – specifically iron requirement, anaemia and coagulation changes
