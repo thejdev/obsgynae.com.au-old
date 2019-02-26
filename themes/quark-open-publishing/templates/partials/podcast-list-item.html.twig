@@ -2,7 +2,7 @@
   <div class="card">
       {% set image = page.media.images|first %}
       {% if image and ((page.header.header_image is not defined) or (page.header.header_image))  %}
-      <div class="card-image">
+    <!--  <div class="card-image">
 
         {# support image credit tag with optional image meta file - hibbittsdesign.org #}
           {% if page.header.header_image_credit %}
@@ -29,7 +29,7 @@
             <a href="{{ page.url }}">{{ image.cropZoom(1400,400).html }}</a>
           {% endif %}
 
-      </div>
+      </div> -->
       {% endif %}
       <div class="card-header">
           <div class="card-subtitle text-gray">
