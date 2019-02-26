@@ -6,6 +6,7 @@ feed:
 podcast:
     title: 'The ObsGynaePod'
     itunes:
+        subtitle: 'The podcast for medical students, residents, GP''s and anyone with an interest in obstetrics and gynaecology.'
         author: 'Isaac Hanley'
         owner:
             name: 'Isaac Hanley'
