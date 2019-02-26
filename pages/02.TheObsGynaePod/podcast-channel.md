@@ -24,7 +24,7 @@ podcast:
     link: 'https://www.obsgynae.com.au'
     channelLanguage: en
     copyright: www.obsgynae.com.au
-hide_git_sync_repo_link: false
+hide_git_sync_repo_link: true
 body_classes: sticky-footer
 ---
 
