@@ -5,8 +5,12 @@
 <section id="{{ id }}" class="section text-light title-h1h2 hero-tiny {{ page.header.background.parallax ? 'parallax' : '' }}" style="background-color:#2E3E4B">
     <div class="image-overlay"></div>
     <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
-      <h1>             {{ page.media[channel_image.name].resize(150, 150).html() }} {{page.header.podcast.title}} </h1>
+  <div class="columns">
+    <div class="column col-6 col-mx-auto">      
+      <img src={{ page.find('/media').media['ObsgynaePod-logo-wide.svg'].url() }} /> 
       <h5>{{page.header.podcast.description}} </h5>
+</div>  
+      </div>
     </section>
  
     <i id="to-start" class="pulse fa fa-angle-down"></i>
@@ -15,26 +19,15 @@
 
     {% set series = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-series') %}
     {% set episodes = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-episode') %}
-<!--   
-       <div class="hero-sm section text-dark title-h1h2">
-      <section class="container " style="text-align: center"> 
-
-{{page.header.podcast.description}} </h2>
-    </section>
-      
-        <<div class = "podcast-channel-image">
             {% set channel_image = ((header.podcast.itunes.image)|first) %}
             {{ page.media[channel_image.name].resize(200, 200).html() }}
-
-        </div>
+<!--
             <p class = "owner">by {{ header.podcast.itunes.owner.name}}</p>
             <p>{{page.header.podcast.description}}</p>
         <div class="channel-links">
             <a href="{{base_url_simple}}{{page.route}}.rss"><i class="fa fa-rss" aria-hidden="true"></i> {{page.title}} Podcast</a>
 
         </div>
-
-    </div> -->
 
     {% if (page.content) %}
     <div class="channel-content">
@@ -44,7 +37,7 @@
     </div>
 
     {% endif %}
-
+--> 
     {% include 'partials/podcast_episodes_list.html.twig' %}
     {% include 'partials/podcast_series_list.html.twig' %}
     <div class="clearfix"></div>
