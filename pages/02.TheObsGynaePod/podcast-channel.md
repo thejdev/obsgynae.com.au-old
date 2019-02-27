@@ -20,7 +20,7 @@ podcast:
                 type: image/png
                 size: 126390
                 path: 'user/pages/02.TheObsGynaePod/Podcast logo vector.png'
-    description: 'The podcast for medical students, residents, GP''s and anyone with an interest in obstetrics and gynaecology. In each episode we discuss a topic in women''s health with an expert in the field.'
+    description: "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology. \r\nIn each episode we discuss a topic in women's health with an expert in the field."
     link: 'https://www.obsgynae.com.au'
     channelLanguage: en
     copyright: www.obsgynae.com.au

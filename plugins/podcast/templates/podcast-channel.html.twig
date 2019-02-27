@@ -5,7 +5,7 @@
 <section id="{{ id }}" class="section text-light title-h1h2 hero-tiny {{ page.header.background.parallax ? 'parallax' : '' }}" style="background-color:#2E3E4B">
     <div class="image-overlay"></div>
     <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
-      <h1>             {{ page.media[channel_image.name].resize(150, 150).left.html() }} {{page.header.podcast.title}} </h1>
+      <h1>             {{ page.media[channel_image.name].resize(150, 150).html() }} {{page.header.podcast.title}} </h1>
       <h5>{{page.header.podcast.description}} </h5>
     </section>
  
