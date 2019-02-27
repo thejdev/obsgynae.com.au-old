@@ -1,16 +1,28 @@
 {% extends 'partials/base.html.twig' %}
 
 {% block content %}
+{% set channel_image = ((header.podcast.itunes.image)|first) %}
+<section id="{{ id }}" class="section text-light title-h1h2 hero-tiny {{ page.header.background.parallax ? 'parallax' : '' }}" style="background-color:#2E3E4B">
+    <div class="image-overlay"></div>
+    <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
+      <h1>             {{ page.media[channel_image.name].resize(150, 150).left.html() }} {{page.header.podcast.title}} </h1>
+      <h5>{{page.header.podcast.description}} </h5>
+    </section>
+ 
+    <i id="to-start" class="pulse fa fa-angle-down"></i>
+</section>
+
+
     {% set series = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-series') %}
     {% set episodes = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-episode') %}
-    <div class="hero-sm section text-dark title-h1h2">
-      <section class="container " style="text-align: center">
-         
-        <h1>{{ header.title }}</h1>
-        {{page.header.podcast.description}}
+<!--   
+       <div class="hero-sm section text-dark title-h1h2">
+      <section class="container " style="text-align: center"> 
+
+{{page.header.podcast.description}} </h2>
     </section>
       
-        <!-- <div class = "podcast-channel-image">
+        <<div class = "podcast-channel-image">
             {% set channel_image = ((header.podcast.itunes.image)|first) %}
             {{ page.media[channel_image.name].resize(200, 200).html() }}
 
@@ -20,9 +32,9 @@
         <div class="channel-links">
             <a href="{{base_url_simple}}{{page.route}}.rss"><i class="fa fa-rss" aria-hidden="true"></i> {{page.title}} Podcast</a>
 
-        </div> -->
+        </div>
 
-    </div>
+    </div> -->
 
     {% if (page.content) %}
     <div class="channel-content">
