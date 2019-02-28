@@ -1,49 +1,44 @@
-{% extends 'partials/base.html.twig' %}
-
-{% block content %}
+{% extends 'partials/base.html.twig' %} 
+{% block content %} 
 {% set channel_image = ((header.podcast.itunes.image)|first) %}
-<section id="{{ id }}" class="section text-light title-h1h2 hero-tiny {{ page.header.background.parallax ? 'parallax' : '' }}" style="background-color:#2E3E4B">
-    <div class="image-overlay"></div>
+
+<section id="{{ id }}" class="section text-light title-h1h2 hero-tiny" style="background-color:#2E3E4B">
     <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
-  <div class="columns">
-    <div class="column col-6 col-mx-auto">      
-      <img src={{ page.find('/media').media['ObsgynaePod-logo-wide3.png'].url() }} /> 
-      <h5>{{page.header.podcast.description}} </h5>
-      <button class="btn">default button</button>
-<button class="btn btn-primary">primary button</button>
-</div>  
-      </div>
+        <div class="columns">
+            <div class="column col-6 col-mx-auto">
+                <img src={{ page.find( '/media').media[ 'ObsgynaePod-logo-wide-transp.png'].url() }} />
+                <h5>{{page.header.podcast.description}} </h5>
+                <script>
+                    window.podcastData = {
+                        "title": "The ObsGynaePod",
+                        "subtitle": "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology.",
+                        "description": "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology.  In each episode we discuss a topic in women's health with an expert in the field.",
+                        "cover": "https://www.obsgynae.com.au/cms/user/pages/06.media/Podcast-logo@2x.png",
+                        "feeds": [{
+                            "type": "audio",
+                            "format": "mp3",
+                            "url": "https://www.obsgynae.com.au/cms/theobsgynaepod.rss"
+                        }]
+                    }
+                </script>
+                <script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="en" data-size="big" data-json-data="podcastData" data-color="#ffffff" data-format="rectangle" data-style="filled"></script>
+                <noscript><a href="https://www.obsgynae.com.au/cms/theobsgynaepod.rss">Subscribe to feed</a></noscript>
+            </div>
+        </div>
     </section>
- 
-    <i id="to-start" class="pulse fa fa-angle-down"></i>
 </section>
 
-
-    {% set series = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-series') %}
-    {% set episodes = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-episode') %}
-            {% set channel_image = ((header.podcast.itunes.image)|first) %}
-<!--            {{ page.media[channel_image.name].resize(200, 200).html() }}
-
-            <p class = "owner">by {{ header.podcast.itunes.owner.name}}</p>
-            <p>{{page.header.podcast.description}}</p>
-        <div class="channel-links">
-            <a href="{{base_url_simple}}{{page.route}}.rss"><i class="fa fa-rss" aria-hidden="true"></i> {{page.title}} Podcast</a>
-
-        </div>
-
-    {% if (page.content) %}
-    <div class="channel-content">
-        <p>
-            {{page.content}}
-        </p>
-    </div>
-
-    {% endif %}
---> 
-    {% include 'partials/podcast_episodes_list.html.twig' %}
-    {% include 'partials/podcast_series_list.html.twig' %}
-    <div class="clearfix"></div>
-
+{% set series = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-series') %} 
+{% set episodes = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-episode') %} 
+{% if (page.content) %}
+<div class="channel-content">
+    <p>
+        {{page.content}}
+    </p>
+</div>
+{% endif %}
+{% include 'partials/podcast_episodes_list.html.twig' %} 
+{% include 'partials/podcast_series_list.html.twig' %}
+<div class="clearfix"></div>
 
 {% endblock %}
-
