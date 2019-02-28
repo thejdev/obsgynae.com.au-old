@@ -1,5 +1,5 @@
 ---
-media_order: 'Hippocrates.jpg,Podcast-logo.png'
+media_order: 'Hippocrates.jpg,Podcast-logo.png,ObsgynaePod-logo-wide.svg'
 hide_git_sync_repo_link: false
 visible: false
 ---
