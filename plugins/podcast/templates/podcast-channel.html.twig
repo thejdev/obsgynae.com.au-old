@@ -7,7 +7,7 @@
     <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
   <div class="columns">
     <div class="column col-6 col-mx-auto">      
-      <img src={{ page.find('/media').media['ObsgynaePod-logo-wide.svg'].url() }} /> 
+      <img src={{ page.find('/media').media['ObsgynaePod-logo-wide3.png'].url() }} /> 
       <h5>{{page.header.podcast.description}} </h5>
 </div>  
       </div>
@@ -20,8 +20,8 @@
     {% set series = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-series') %}
     {% set episodes = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-episode') %}
             {% set channel_image = ((header.podcast.itunes.image)|first) %}
-            {{ page.media[channel_image.name].resize(200, 200).html() }}
-<!--
+<!--            {{ page.media[channel_image.name].resize(200, 200).html() }}
+
             <p class = "owner">by {{ header.podcast.itunes.owner.name}}</p>
             <p>{{page.header.podcast.description}}</p>
         <div class="channel-links">
