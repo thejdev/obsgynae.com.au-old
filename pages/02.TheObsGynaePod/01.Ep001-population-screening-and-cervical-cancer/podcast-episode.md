@@ -2,9 +2,6 @@
 subtitle: 'Population screening and the new cervical screening test'
 title: 'Ep 001: Population Screening and Cervical Cancer'
 podcast:
-    itunes:
-        author: 'Isaac Hanley'
-        explicit: 'no'
     audio:
         local:
             user/pages/02.TheObsGynaePod/01.Ep001-population-screening-and-cervical-cancer/ogp-ep001.mp3:
@@ -17,6 +14,9 @@ podcast:
             type: audio/mpeg
             duration: '13:34'
             enclosure_length: 9767969
+    itunes:
+        author: 'Isaac Hanley'
+        explicit: 'no'
 date: '2018-05-15 00:00'
 taxonomy:
     tag:
