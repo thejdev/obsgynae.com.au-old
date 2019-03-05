@@ -12,8 +12,21 @@
             {% endif %}
         </div>
     {% endif %}
-
-    <div class="e-content">
+  
+<div class="container">
+ <div class="columns">
+{% if config.get('plugins.page-toc.active') or attribute(page.header, 'page-toc').active %}
+<div class="page-toc column col-4">
+    {% set table_of_contents = toc(page.content) %}
+    {% if table_of_contents is not empty %}
+  <br>
+    <h4>Table of Contents</h4>
+    {{ table_of_contents }}
+    {% endif %}
+</div>
+{% endif %}
+  
+    <div class="e-content column">
         {# check to hide post summary on page - hibbittsdesign.org #}
         {% if page.parent.header.display_post_summary.enabled %}
             {% set content = page.content | slice(page.summary | length) %}
@@ -40,6 +53,8 @@
         {% include 'partials/comments.html.twig' %}
     {% endif %}
 
+</div>
+  </div>
 </div>
 
 {# added check for content display flag - hibbittsdesign.org #}

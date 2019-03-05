@@ -1,4 +1,14 @@
 {% extends 'partials/base.html.twig' %} 
+{% block stylesheets %}
+    {% do assets.addCss('theme://css/bricklayer.css') %}
+    {{ parent() }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% do assets.add('theme://js/bricklayer.min.js') %}
+{% endblock %}
+
 {% block content %} 
 {% set channel_image = ((header.podcast.itunes.image)|first) %}
 
@@ -27,18 +37,26 @@
         </div>
     </section>
 </section>
-
 {% set series = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-series') %} 
 {% set episodes = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-episode') %} 
-{% if (page.content) %}
-<div class="channel-content">
-    <p>
-        {{page.content}}
-    </p>
+<div id="episodes">
+	<section id="body-wrapper" class="section blog-listing">
+      <section class="container {{ grid-size }}">
+<h3>Recent Episodes</h3>
+        <div>
+      	     {% for episode in episodes %} 
+             {% include 'partials/podcast_episodes_list.html.twig' %}
+             {% endfor %}
+           </div>
+      </section>
+  </section>
 </div>
-{% endif %}
-{% include 'partials/podcast_episodes_list.html.twig' %} 
-{% include 'partials/podcast_series_list.html.twig' %}
-<div class="clearfix"></div>
 
+<div class="clearfix"></div>
+    <script>
+        //Bricklayer
+        {% if ((page.header.bricklayer_layout is not defined) or (page.header.bricklayer_layout)) %}
+            var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))
+        {% endif %}
+    </script>
 {% endblock %}
