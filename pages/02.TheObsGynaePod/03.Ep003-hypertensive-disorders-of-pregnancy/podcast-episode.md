@@ -1,10 +1,7 @@
 ---
-title: ' Ep 003: Hypertensive Disorders of Pregnancy'
 subtitle: 'A look into the broad spectrum of problems that constitute hypertensive disorders in pregnancy'
+title: ' Ep 003: Hypertensive Disorders of Pregnancy'
 podcast:
-    itunes:
-        author: 'Isaac Hanley'
-        explicit: 'no'
     audio:
         local:
             user/pages/02.TheObsGynaePod/03.Ep003-hypertensive-disorders-of-pregnancy/ogp-ep003.mp3:
@@ -17,6 +14,9 @@ podcast:
             type: audio/mpeg
             duration: '16:24'
             enclosure_length: 11811914
+    itunes:
+        author: 'Isaac Hanley'
+        explicit: 'no'
 date: '2018-08-21 12:12'
 taxonomy:
     tag:
