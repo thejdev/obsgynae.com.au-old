@@ -4,12 +4,24 @@ podcast:
     itunes:
         author: 'Isaac Hanley'
         explicit: 'no'
+    audio:
+        local:
+            user/pages/02.TheObsGynaePod/03.Ep003-hypertensive-disorders-of-pregnancy/ogp-ep003.mp3:
+                name: ogp-ep003.mp3
+                type: audio/mp3
+                size: 11811914
+                path: user/pages/02.TheObsGynaePod/03.Ep003-hypertensive-disorders-of-pregnancy/ogp-ep003.mp3
+        meta:
+            guid: user/pages/02.TheObsGynaePod/03.Ep003-hypertensive-disorders-of-pregnancy/ogp-ep003.mp3
+            type: audio/mpeg
+            duration: '16:24'
+            enclosure_length: 11811914
 date: '2018-08-21 12:12'
 taxonomy:
     tag:
+        - pregnancy
         - podcast
         - hypertension
-        - pregnancy
 hide_git_sync_repo_link: false
 visible: true
 ---
