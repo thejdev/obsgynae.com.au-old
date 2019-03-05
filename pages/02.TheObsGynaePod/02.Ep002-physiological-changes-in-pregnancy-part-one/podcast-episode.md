@@ -2,18 +2,6 @@
 subtitle: 'Alterations in physiology that occur in pregnancy'
 title: 'Ep 002: Physiological Changes in Pregnancy – Part One'
 podcast:
-    audio:
-        local:
-            user/pages/02.TheObsGynaePod/02.physiological-changes-in-pregnancy-part-one/ogp-ep002.mp3:
-                name: ogp-ep002.mp3
-                type: audio/mpeg
-                size: 9767969
-                path: user/pages/02.TheObsGynaePod/02.physiological-changes-in-pregnancy-part-one/ogp-ep002.mp3
-        meta:
-            guid: user/pages/02.TheObsGynaePod/02.physiological-changes-in-pregnancy-part-one/ogp-ep002.mp3
-            type: audio/mpeg
-            duration: '13:34'
-            enclosure_length: 9767969
     itunes:
         author: 'Isaac Hanley'
         explicit: 'no'
