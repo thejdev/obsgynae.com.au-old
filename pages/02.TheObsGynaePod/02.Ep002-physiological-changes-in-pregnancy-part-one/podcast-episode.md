@@ -5,6 +5,18 @@ podcast:
     itunes:
         author: 'Isaac Hanley'
         explicit: 'no'
+    audio:
+        local:
+            user/pages/02.TheObsGynaePod/02.Ep002-physiological-changes-in-pregnancy-part-one/ogp-ep002.mp3:
+                name: ogp-ep002.mp3
+                type: audio/mp3
+                size: 17557506
+                path: user/pages/02.TheObsGynaePod/02.Ep002-physiological-changes-in-pregnancy-part-one/ogp-ep002.mp3
+        meta:
+            guid: user/pages/02.TheObsGynaePod/02.Ep002-physiological-changes-in-pregnancy-part-one/ogp-ep002.mp3
+            type: audio/mpeg
+            duration: '24:23'
+            enclosure_length: 17557506
 published: true
 date: '2018-06-11 00:00'
 taxonomy:
