@@ -5,6 +5,18 @@ podcast:
     itunes:
         author: 'Isaac Hanley'
         explicit: 'no'
+    audio:
+        local:
+            user/pages/02.TheObsGynaePod/01.Ep001-population-screening-and-cervical-cancer/ogp-ep001.mp3:
+                name: ogp-ep001.mp3
+                type: audio/mp3
+                size: 9767969
+                path: user/pages/02.TheObsGynaePod/01.Ep001-population-screening-and-cervical-cancer/ogp-ep001.mp3
+        meta:
+            guid: user/pages/02.TheObsGynaePod/01.Ep001-population-screening-and-cervical-cancer/ogp-ep001.mp3
+            type: audio/mpeg
+            duration: '13:34'
+            enclosure_length: 9767969
 date: '2018-05-15 00:00'
 taxonomy:
     tag:
