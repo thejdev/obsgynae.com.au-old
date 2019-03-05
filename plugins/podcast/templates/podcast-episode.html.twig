@@ -1,82 +1,72 @@
 {% extends 'partials/base.html.twig' %}
 
+{% if page.header.podcast.audio.remote is null or page.header.podcast.audio.remote is empty %}
+	{% set media_url = base_url ~ "/" ~ page.header.podcast.audio.meta.guid %}
+{% else %}
+	{% set media_url = page.header.podcast.audio.meta.guid %}
+{% endif %}
+
 {% block content %}
 <section id="{{ id }}" class="text-light title-h1h2 hero-tiny" style="background-color:#2E3E4B">
-    <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
-        <div class="columns">
-            <div class="column col-6 col-mx-auto">
-                <img src={{ page.find( '/media').media[ 'ObsgynaePod-logo-wide-transp.png'].url() }} />
-                <h5>{{ header.title }}</h5>
-              <button class="btn  btn-primary">Download Episode</button>
-            </div>
-        </div>
-    </section>
+  <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
+    <div class="columns">
+      <div class="column col-6 col-mx-auto">
+        <img src={{ page.find( '/media').media[ 'ObsgynaePod-logo-wide-transp.png'].url() }} />
+        <h5>{{ header.title }} - {{ header.subtitle }}</h5>
+        <a href="{{media_url}}"><button class="btn  btn-primary">Download Episode</button></a>
+      </div>
+    </div>
+  </section>
 </section>
 <div class="container">
- <div class="columns">
-<div class="page-toc column col-3">
-<h4>Episode Details</h4>
-<ul>
-  <li> Title: <a href ="{{ page.header.url }}"> {{ page.header.title }} </a></li>
-  <li>Duration: {{ page.header.podcast.audio.meta.duration }}</li>
-  <li>Upload date: {{ (page.header.date)|date('d M Y') }}</li>
-  <li>Tags:
-<span class="tags">
-    {% for tag in page.header.taxonomy.tag %}
-    <a class="label label-rounded {{ label_style ?: 'label-secondary' }} p-category" href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}#body-wrapper">{{ tag }}</a>
-    {% endfor %}
-    </span></li>
-  </ul>
+  <div class="columns">
+    <div class="page-toc column col-3">
+      <h4>Episode Details</h4>
+      <ul>
+        <li> Title: <a href ="{{ page.header.url }}"> {{ page.header.title }} </a></li>
+        <li>Duration: {{ page.header.podcast.audio.meta.duration }}</li>
+        <li>Upload date: {{ (page.header.date)|date('d M Y') }}</li>
+        <li>Tags:
+          <span class="tags">
+            {% for tag in page.header.taxonomy.tag %}
+            <a class="label label-rounded {{ label_style ?: 'label-secondary' }} p-category" href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}#body-wrapper">{{ tag }}</a>
+            {% endfor %}
+          </span>
+        </li>
+      </ul>
       {% if page.header.podcast.audio.meta %}
-        <p class = "podcast-episode-audio">
-            {% if page.header.podcast.audio.remote is null or page.header.podcast.audio.remote is empty %}
-               {% set media_url = base_url ~ "/" ~ page.header.podcast.audio.meta.guid %}
-            {% else %}
-                {% set media_url = page.header.podcast.audio.meta.guid %}
-            {% endif %}
-            <audio controls="1" alt="episode.title"><source src="{{media_url}}">Your browser does not support the audio tag.</audio>
-            <br/><a href ="{{media_url}}">Download Audio</a>
-        </p>
-    {% endif %}
-<div class="text-center">
-  <script>
-                    window.podcastData = {
-                        "title": "The ObsGynaePod",
-                        "subtitle": "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology.",
-                        "description": "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology.  In each episode we discuss a topic in women's health with an expert in the field.",
-                        "cover": "https://www.obsgynae.com.au/cms/user/pages/06.media/Podcast-logo@2x.png",
-                        "feeds": [{
-                            "type": "audio",
-                            "format": "mp3",
-                            "url": "https://www.obsgynae.com.au/cms/theobsgynaepod.rss"
-                        }]
-                    }
-                </script>
-                <script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="en" data-size="big" data-json-data="podcastData" data-color="#3085ee" data-format="rectangle" data-style="outline"></script>
-                <noscript><a href="https://www.obsgynae.com.au/cms/theobsgynaepod.rss">Subscribe to feed</a></noscript>
-   </div>
-   </div>
-<div class="column">
- {{ page.content }}
-</div>
-{#
-<h3>{{ header.title }}</h3>
-    {% if page.parent.name == 'podcast-series.md' %}
-        <h2>An episode in the series {{page.parent.title}}</h2>
-    {% endif %}
-    <h3>Posted {{ header.date|date('Y-m-d')|nicetime(false) }}</h3>
-    {% if page.header.podcast.audio.meta %}
-        <p class = "podcast-episode-audio">
-            {% if page.header.podcast.audio.remote is null or page.header.podcast.audio.remote is empty %}
-               {% set media_url = base_url ~ "/" ~ page.header.podcast.audio.meta.guid %}
-            {% else %}
-                {% set media_url = page.header.podcast.audio.meta.guid %}
-            {% endif %}
-            <audio controls="1" alt="episode.title"><source src="{{media_url}}">Your browser does not support the audio tag.</audio>
-            <br/><a href ="{{media_url}}">Download Audio</a>
-        </p>
-    {% endif %}
-#}
+      <p class = "podcast-episode-audio">
+        <audio controls="1" alt="episode.title">
+          <source src="{{media_url}}">Your browser does not support the audio tag.
+        </audio>
+      </p>
+      {% endif %}
+      <div class="text-center">
+        <script>
+          window.podcastData = {
+            "title": "The ObsGynaePod",
+            "subtitle": "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology.",
+            "description": "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology.  In each episode we discuss a topic in women's health with an expert in the field.",
+            "cover": "https://www.obsgynae.com.au/cms/user/pages/06.media/Podcast-logo@2x.png",
+            "feeds": [{
+              "type": "audio",
+              "format": "mp3",
+              "url": "https://www.obsgynae.com.au/cms/theobsgynaepod.rss"
+            }
+                     ]
+          }
+        </script>
+        <script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="en" data-size="big" data-json-data="podcastData" data-color="#3085ee" data-format="rectangle" data-style="outline">
+        </script>
+        <noscript>
+          <a href="https://www.obsgynae.com.au/cms/theobsgynaepod.rss">Subscribe to feed
+          </a>
+        </noscript>
+      </div>
+    </div>
+    <div class="column">
+      {{ page.content }}
+    </div>
   </div>
 </div>
 {% endblock %}

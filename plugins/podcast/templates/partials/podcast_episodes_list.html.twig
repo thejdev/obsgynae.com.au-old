@@ -18,7 +18,7 @@
 	<div class="card-footer">
       Duration: <time> {{ episode.header.podcast.audio.meta.duration }} </time>
       <br>
-      <button class="btn btn-sm">Play Episode <i class="fa fa-play"></i></button>
+      <a href="{{ episode.url }}"><button class="btn btn-sm">Play Episode <i class="fa fa-play"></i></button></a>
       <br>      
       <span class="tags">
     {% for tag in episode.taxonomy.tag %}
