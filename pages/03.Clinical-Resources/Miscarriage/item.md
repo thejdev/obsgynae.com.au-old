@@ -19,7 +19,6 @@ hide_from_post_list: false
 General resources on miscarriage.
 
 ===
-# Miscarriage
 ## General
 ### Symptoms
 
