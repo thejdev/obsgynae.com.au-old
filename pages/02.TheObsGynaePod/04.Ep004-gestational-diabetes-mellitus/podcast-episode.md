@@ -3,6 +3,18 @@ title: 'Ep 004:  Gestational Diabetes Mellitus'
 podcast:
     itunes:
         explicit: 'no'
+    audio:
+        local:
+            user/pages/02.TheObsGynaePod/04.Ep004-gestational-diabetes-mellitus/ogp-ep004.mp3:
+                name: ogp-ep004.mp3
+                type: audio/mp3
+                size: 10391043
+                path: user/pages/02.TheObsGynaePod/04.Ep004-gestational-diabetes-mellitus/ogp-ep004.mp3
+        meta:
+            guid: user/pages/02.TheObsGynaePod/04.Ep004-gestational-diabetes-mellitus/ogp-ep004.mp3
+            type: audio/mpeg
+            duration: '14:20'
+            enclosure_length: 10391043
 date: '2018-10-01 17:49'
 taxonomy:
     tag:
