@@ -1,7 +1,7 @@
 <div class="card">
 	<div class="card-header">
 		<div class="card-subtitle text-gray">
-                    {{ (episode.modified)|date('d M Y') }}
+                    {{ (episode.header.date)|date('d M Y') }}
       </div>
 		<div class="card-title">
           <h4><a href ="{{ episode.url }}"> {{ episode.title }} </a></h4>

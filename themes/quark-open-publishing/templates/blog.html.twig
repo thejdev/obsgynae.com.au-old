@@ -52,14 +52,20 @@
                 <div>
                     {% endif %}
 
-                    {# display posts with 'featured' tag on current blog page - hibbittsdesign.org #}
-                    {% for child in taxonomy.findTaxonomy({'tag': "featured"}) %}
+                    {# display posts with 'featured' tag on current blog page - hibbittsdesign.org 
+                    {% for child in taxonomy.findTaxonomy({'tag': "pinned"}) %}
                         {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
                     {% endfor %}
-
+					#}
+                        {% for child in collection %}
+                        {% if "pinned" in child.taxonomy['tag'] %}
+                            {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
+                        {% endif %}
+                    {% endfor %}      
+                  
                     {# display posts without 'featured' tag - hibbittsdesign.org #}
                     {% for child in collection %}
-                        {% if "featured" not in child.taxonomy['tag'] %}
+                        {% if "pinned" not in child.taxonomy['tag'] %}
                             {% include 'partials/blog-list-item.html.twig' with {blog: page, page: child} %}
                         {% endif %}
                     {% endfor %}
