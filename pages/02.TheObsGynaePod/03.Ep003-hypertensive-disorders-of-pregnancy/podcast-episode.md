@@ -1,5 +1,6 @@
 ---
 title: ' Ep 003: Hypertensive Disorders of Pregnancy'
+subtitle: 'A look into the broad spectrum of problems that constitute hypertensive disorders in pregnancy'
 podcast:
     itunes:
         author: 'Isaac Hanley'
