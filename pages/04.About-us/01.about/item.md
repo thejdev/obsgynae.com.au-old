@@ -5,6 +5,7 @@ taxonomy:
     category:
         - about
     tag:
+        - pinned
         - about-us
         - FOAMed
         - isaac
