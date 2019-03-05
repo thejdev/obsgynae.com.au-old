@@ -1,5 +1,6 @@
 ---
 title: 'Ep 004:  Gestational Diabetes Mellitus'
+subtitle: 'One of the biggest problems for obstetric care in Australia'
 podcast:
     audio:
         local:
@@ -14,6 +15,7 @@ podcast:
             duration: '14:20'
             enclosure_length: 10391043
     itunes:
+        author: 'Isaac Hanley'
         explicit: 'no'
 date: '2018-10-01 17:49'
 taxonomy:
@@ -21,6 +23,7 @@ taxonomy:
         - podcast
         - diabetes
 hide_git_sync_repo_link: false
+visible: true
 ---
 
 In this episode we will discuss Gestational Diabetes Mellitus – which is fast becoming the number one problem in obstetric care in Australia.
