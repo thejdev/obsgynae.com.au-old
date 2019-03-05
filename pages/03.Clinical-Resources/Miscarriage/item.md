@@ -56,7 +56,7 @@ General resources on miscarriage.
 * cramp-like, lower abdominal pain (rarely severe)
 * PV bleeding (any bleeding in the first trimester of pregnancy requires consideration of miscarriage)
 
-##### Other Important History
+#### Other Important History
 
 * date of LMP for pregnancy dating (always ask how regular the woman’s cycle was – if her menstrual cycle was erratic prior to getting pregnant than the LMP pregnancy dating is less accurate)
 * any previous ultrasound scans in this pregnancy
