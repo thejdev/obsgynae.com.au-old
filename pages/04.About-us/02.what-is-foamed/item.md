@@ -10,8 +10,14 @@ show_pagination: true
 hide_from_post_list: false
 ---
 
-Your page summary goes here.
+What is Foam? And how do I get involved?
 
 ===
 
-Your page content goes here.
+# What is FOAM
+FOAM (Free Open Access Meducation) means different things to different people. However, [Dr. Mike Cadogen, Life in the Fast Lane](https://litfl.com/foam-free-open-access-medical-education/) provides a succinct summary:
+> FOAM is a collection of resources, a community and an ethos...
+> FOAM is independent of platform or media — it includes blogs, podcasts, tweets, Google hangouts, online videos, text documents, photographs, Facebook groups, and a whole lot more.
+>FOAM should not be seen as a teaching philosophy or strategy, but rather as a globally accessible crowd-sourced educational adjunct providing inline (contextual) and offline (asynchronous) content to augment traditional educational principles.
+
+# What does that mean to us?
