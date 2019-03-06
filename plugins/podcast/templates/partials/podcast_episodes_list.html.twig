@@ -1,0 +1,63 @@
+<div class="card">
+	<div class="card-header">
+		<div class="card-subtitle text-gray">
+                    {{ (episode.header.date)|date('d M Y') }}
+      </div>
+		<div class="card-title">
+          <h4><a href ="{{ episode.url }}"> {{ episode.title }} </a></h4>
+      </div>
+	</div>
+	<div class="card-body">
+                    {% if episode.summary %}
+                        {{ (episode.summary)|striptags|truncate(120) }}
+                    {% else %}
+                        No summary available.
+                    {% endif %}
+
+	</div>
+	<div class="card-footer">
+      Duration: <time> {{ episode.header.podcast.audio.meta.duration }} </time>
+      <br>
+      <a href="{{ episode.url }}"><button class="btn btn-sm">Play Episode <i class="fa fa-play"></i></button></a>
+      <br>      
+      <span class="tags">
+    {% for tag in episode.taxonomy.tag %}
+    <a class="label label-rounded {{ label_style ?: 'label-secondary' }} p-category" href="{{ blog.url|rtrim('/') }}/tag{{ config.system.param_sep }}{{ tag }}#body-wrapper">{{ tag }}</a>
+    {% endfor %}
+</span>
+</div>
+</div>
+
+  
+		<!-- 
+           <li><div class="episode-image">
+                    {% if ((episode.header.podcast.itunes.image)|first) %}
+                        {{ page.find(episode.route).media[ (((episode.header.podcast.itunes.image)|first).name) ].cropResize(200, 200).html}}
+                    {% else %}
+                        <img src="{{ url("plugin://podcast/assets/images/default.jpg") }}" />
+                    {% endif %}
+                </div><a href ="{{ episode.url }}"><h2>{{ episode.title }}
+                    {% if (episode.header.podcast.audio.meta.duration) %}
+                        <small>( {{ episode.header.podcast.audio.meta.duration }} )</small>
+                    {% else %}
+                        <small>( No Audio )</small>
+                    {% endif %}
+                </h2></a><p class = "episode-date">
+                    {{ (episode.modified)|date('Y-m-d')|nicetime(false) }}
+                </p><p class = "episode-description">
+                    {% if episode.summary %}
+                        {{ (episode.summary)|striptags|truncate(120) }}
+                    {% else %}
+                        No summary available.
+                    {% endif %}
+                </p>
+                {% if episode.header.podcast.audio.meta %}
+                    <p class = "podcast-episode-audio">
+                        {% if episode.header.podcast.audio.remote is null or episode.header.podcast.audio.remote is empty %}
+                        {% set media_url = base_url ~ "/" ~ episode.header.podcast.audio.meta.guid %}
+                        {% else %}
+                            {% set media_url = episode.header.podcast.audio.meta.guid %}
+                        {% endif %}
+                        <audio controls="1" alt="episode.title"><source src="{{media_url}}">Your browser does not support the audio tag.</audio><br/><a href ="{{media_url}}">Download Audio</a></p>
+                {% endif %}
+            </li> -->

@@ -1,0 +1,62 @@
+{% extends 'partials/base.html.twig' %} 
+{% block stylesheets %}
+    {% do assets.addCss('theme://css/bricklayer.css') %}
+    {{ parent() }}
+{% endblock %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% do assets.add('theme://js/bricklayer.min.js') %}
+{% endblock %}
+
+{% block content %} 
+{% set channel_image = ((header.podcast.itunes.image)|first) %}
+
+<section id="{{ id }}" class="section text-light title-h1h2 hero-tiny" style="background-color:#2E3E4B">
+    <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
+        <div class="columns">
+            <div class="column col-6 col-mx-auto">
+                <img src={{ page.find( '/media').media[ 'ObsgynaePod-logo-wide-transp.png'].url() }} />
+                <h5>{{page.header.podcast.description}} </h5>
+                <script>
+                    window.podcastData = {
+                        "title": "The ObsGynaePod",
+                        "subtitle": "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology.",
+                        "description": "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology.  In each episode we discuss a topic in women's health with an expert in the field.",
+                        "cover": "https://www.obsgynae.com.au/cms/user/pages/06.media/Podcast-logo@2x.png",
+                        "feeds": [{
+                            "type": "audio",
+                            "format": "mp3",
+                            "url": "https://www.obsgynae.com.au/cms/theobsgynaepod.rss"
+                        }]
+                    }
+                </script>
+                <script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="en" data-size="big" data-json-data="podcastData" data-color="#ffffff" data-format="rectangle" data-style="filled"></script>
+                <noscript><a href="https://www.obsgynae.com.au/cms/theobsgynaepod.rss">Subscribe to feed</a></noscript>
+            </div>
+        </div>
+    </section>
+</section>
+{% set series = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-series') %} 
+{% set episodes = page.collection({ 'items': '@self.descendants', 'order': {'by': 'date', 'dir': 'desc'}} ).ofType('podcast-episode') %} 
+<div id="episodes">
+	<section id="body-wrapper" class="section blog-listing">
+      <section class="container {{ grid-size }}">
+<h3>Recent Episodes</h3>
+        <div>
+      	     {% for episode in episodes %} 
+             {% include 'partials/podcast_episodes_list.html.twig' %}
+             {% endfor %}
+           </div>
+      </section>
+  </section>
+</div>
+
+<div class="clearfix"></div>
+    <script>
+        //Bricklayer
+        {% if ((page.header.bricklayer_layout is not defined) or (page.header.bricklayer_layout)) %}
+            var bricklayer = new Bricklayer(document.querySelector('.bricklayer'))
+        {% endif %}
+    </script>
+{% endblock %}
