@@ -14,6 +14,12 @@ podcast:
         category: Health
         subcategory: Medicine
         explicit: 'no'
+        image:
+            user/pages/02.TheObsGynaePod/obsgynaepod-logo.png:
+                name: obsgynaepod-logo.png
+                type: image/png
+                size: 126390
+                path: user/pages/02.TheObsGynaePod/obsgynaepod-logo.png
     description: "The podcast for medical students, residents, GP's and anyone with an interest in obstetrics and gynaecology. \r\nIn each episode we discuss a topic in women's health with an expert in the field."
     link: 'https://www.obsgynae.com.au'
     channelLanguage: en
