@@ -11,7 +11,7 @@ podcast:
         owner:
             name: 'Isaac Hanley'
             email: isaac@obsgynae.com.au
-        category: Health
+        category: 'Science &amp; Medicine'
         subcategory: Medicine
         explicit: 'no'
         image:
