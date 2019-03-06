@@ -30,7 +30,7 @@ In this episode we will discuss Gestational Diabetes Mellitus.
 
 ===
 
-We talk to Dr Vishwas Rahgunath who is a Renal and Obstetric Medicine Physician to review:
+We talk to Dr Vishwas Rahgunath to review:
 * Definition and diagnosis of GDM
 * Risk factors
 * Management and prognosis
