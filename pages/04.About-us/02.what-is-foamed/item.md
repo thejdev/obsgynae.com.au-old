@@ -1,5 +1,5 @@
 ---
-title: 'What is FOAMed?'
+title: 'What is FOAM?'
 date: '2019-02-02 22:47'
 hide_git_sync_repo_link: false
 visible: false
