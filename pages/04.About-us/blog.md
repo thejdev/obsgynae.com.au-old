@@ -22,4 +22,4 @@ display_post_summary:
 ---
 
 # About Us
-## About the authors, contributors & the #FOAMed movement
+## About the authors, contributors & #FOAMed
