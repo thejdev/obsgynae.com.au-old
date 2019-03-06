@@ -26,7 +26,7 @@ hide_git_sync_repo_link: false
 visible: true
 ---
 
-In this episode we will discuss Gestational Diabetes Mellitus, which is fast becoming the number one problem in obstetrics care in Australia.
+In this episode we will discuss Gestational Diabetes Mellitus.
 
 ===
 
