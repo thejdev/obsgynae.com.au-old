@@ -19,6 +19,7 @@ FOAM (Free Open Access Meducation) means different things to different people. H
 > FOAM is a collection of resources, a community and an ethos... FOAM is independent of platform or media — it includes blogs, podcasts, tweets, Google hangouts, online videos, text documents, photographs, Facebook groups, and a whole lot more.
 
 >FOAM should not be seen as a teaching philosophy or strategy, but rather as a globally accessible crowd-sourced educational adjunct providing inline (contextual) and offline (asynchronous) content to augment traditional educational principles.
+>-- <cite>Dr Mike Cadogen</cite>
 
 ## What does that mean to us?
 It means every page on this site is editable by you. It means we welcome contributions & contributions on suggestions on how this site may be a better resource for those with an interest in this area.
